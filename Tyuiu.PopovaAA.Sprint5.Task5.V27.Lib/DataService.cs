@@ -16,7 +16,7 @@ namespace Tyuiu.PopovaAA.Sprint5.Task5.V27.Lib
                     if (Convert.ToDouble(line.Replace('.', ',')) % 5 == 0)
                     {
                         count++;
-                        res = res + Convert.ToDouble(line.Replace('.', ','));
+                        res = res + Convert.ToDouble(line);
                         res = Math.Round((res / count), 3);
                     }
                 }
