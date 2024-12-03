@@ -13,10 +13,10 @@ public class DataService : ISprint5Task5V27
             string line;
             while ((line = reader.ReadLine()) != null)
             {
-                if (Convert.ToDouble(line.Replace('.', ',')) % 5 == 0)
+                if (Convert.ToDouble(line) % 5 == 0)
                 {
                     count++;
-                    res = res + Convert.ToDouble(line.Replace('.', ','));
+                    res = res + Convert.ToDouble(line);
                     res = Math.Round((res / count), 3);
                 }
             }
