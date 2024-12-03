@@ -27,7 +27,9 @@ namespace Tyuiu.PopovaAA.Sprint5.Task4.V2
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                          *");
             Console.WriteLine("*****************************************************************************");
 
-            string path = $@"{Path.GetTempPath()}\InPutDataFileTask4V0.txt";
+            string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask4V2.txt";
+
+            //string path = $@"{Path.GetTempPath()}\InPutDataFileTask4V2.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
