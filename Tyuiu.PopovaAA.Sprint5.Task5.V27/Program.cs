@@ -28,7 +28,7 @@ namespace Tyuiu.PopovaAA.Sprint5.Task5.V27
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                          *");
             Console.WriteLine("*****************************************************************************");
 
-            string path = $@"{Path.GetTempPath()}\InPutDataFileTask5V27.txt";
+            string path = $@"C:\DataSprint5\InPutDataFileTask5V27.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
