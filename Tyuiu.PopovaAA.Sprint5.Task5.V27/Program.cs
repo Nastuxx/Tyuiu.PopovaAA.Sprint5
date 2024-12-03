@@ -27,7 +27,9 @@ namespace Tyuiu.PopovaAA.Sprint5.Task5.V27
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                          *");
             Console.WriteLine("*****************************************************************************");
 
-            string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask5V27.txt";
+            string path = @"C:\Users\popov\source\repos\Tyuiu.PopovaAA.Sprint5\Tyuiu.PopovaAA.Sprint5.Task5.V27\bin\Debug\net8.0\InPutDataFileTask5V27.txt";
+
+            Console.WriteLine("Данные находятся в файле: " + path);
 
             Console.WriteLine("*****************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                *");
