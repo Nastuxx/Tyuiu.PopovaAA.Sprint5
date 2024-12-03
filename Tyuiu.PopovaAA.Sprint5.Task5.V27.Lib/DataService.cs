@@ -7,7 +7,7 @@ namespace Tyuiu.PopovaAA.Sprint5.Task5.V27.Lib
         public double LoadFromDataFile(string path)
         {
             double res = 0;
-            int count = 0;
+            double count = 0;
             using (StreamReader reader = new StreamReader(path))
             {
                 string line;
