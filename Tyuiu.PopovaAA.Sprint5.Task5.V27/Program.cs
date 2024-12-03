@@ -19,7 +19,7 @@ namespace Tyuiu.PopovaAA.Sprint5.Task5.V27
             Console.WriteLine("* УСЛОВИЕ:                                                                  *");
             Console.WriteLine("* Дан файл С:DataSprint5 InPutDataFileTask5V27.txt (файл взять из архива    *");
             Console.WriteLine("* согласно вашему варианту. Создать папку в ручную С:DataSprint5 и          *");
-            Console.WriteLine("* скопировать в неё файл) в котором есть набор значений. Найти среднее      *");
+            Console.WriteLine("* cкопировать в неё файл) в котором есть набор значений. Найти среднее      *");
             Console.WriteLine("* значение всех целых чисел в файле, которые делятся на 5. Полученный       *");
             Console.WriteLine("* результат вывести на консоль. У вещеcтвенных значений округлить до трёх   *");
             Console.WriteLine("* знаков после запятой.                                                     *");
