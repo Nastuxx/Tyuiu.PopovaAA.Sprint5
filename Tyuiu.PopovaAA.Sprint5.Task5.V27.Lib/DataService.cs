@@ -13,10 +13,10 @@ namespace Tyuiu.PopovaAA.Sprint5.Task5.V27.Lib
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    if (Convert.ToDouble(line) % 5 == 0)
+                    if (Convert.ToDouble(line.Replace('.', ',')) % 5 == 0)
                     {
                         count++;
-                        res = res + Convert.ToDouble(line);
+                        res = res + Convert.ToDouble(line.Replace('.', ','));
                         res = Math.Round((res / count), 3);
                     }
                 }
