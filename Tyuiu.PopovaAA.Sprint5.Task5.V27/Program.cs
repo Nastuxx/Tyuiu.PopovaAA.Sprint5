@@ -21,14 +21,14 @@ namespace Tyuiu.PopovaAA.Sprint5.Task5.V27
             Console.WriteLine("* согласно вашему варианту. Создать папку в ручную С:DataSprint5 и          *");
             Console.WriteLine("* cкопировать в неё файл) в котором есть набор значений. Найти среднее      *");
             Console.WriteLine("* значение всех целых чисел в файле, которые делятся на 5. Полученный       *");
-            Console.WriteLine("* результат вывести на конcоль. У вещеcтвенных значений округлить до трёх   *");
+            Console.WriteLine("* результат вывеcти на конcоль. У вещеcтвенных значений округлить до трёх   *");
             Console.WriteLine("* знаков после запятой.                                                     *");
             Console.WriteLine("*                                                                           *");
             Console.WriteLine("*****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                          *");
             Console.WriteLine("*****************************************************************************");
 
-            string path = $@"C:\DataSprint5\InPutDataFileTask5V27.txt";
+            string path = $@"C:\Users\popov\source\repos\Tyuiu.PopovaAA.Sprint5\Tyuiu.PopovaAA.Sprint5.Task5.V27\bin\Debug\net8.0\InPutDataFileTask5V27.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
