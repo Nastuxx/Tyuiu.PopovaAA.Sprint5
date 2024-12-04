@@ -11,7 +11,7 @@ namespace Tyuiu.PopovaAA.Sprint5.Task6.V13.Test
             DataService ds = new DataService();
             string path = $@"C:\Users\popov\source\repos\Tyuiu.PopovaAA.Sprint5\Tyuiu.PopovaAA.Sprint5.Task6.V13\bin\Debug\net8.0\InPutDataFileTask6V13.txt";
             var res = ds.LoadFromDataFile(path);
-            int wait = 2;
+            int wait = 3;
             Assert.AreEqual(wait, res);
         }
 
