@@ -27,8 +27,8 @@ namespace Tyuiu.PopovaAA.Sprint5.Task7.V14
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                          *");
             Console.WriteLine("*****************************************************************************");
 
-            string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask7V14.txt";
-            string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\OutPutDataFileTask7V14.txt";
+            string path = $@"C:\Users\popov\source\repos\Tyuiu.PopovaAA.Sprint5\Tyuiu.PopovaAA.Sprint5.Task7.V14\bin\Debug\net8.0\InPutDataFileTask7V14.txt";
+            string pathSaveFile = $@"C:\Users\popov\source\repos\Tyuiu.PopovaAA.Sprint5\Tyuiu.PopovaAA.Sprint5.Task7.V14\bin\Debug\net8.0\OutPutDataFileTask7V14.txt";
 
             Console.WriteLine("Данные находятся в файле: " + path);
 
