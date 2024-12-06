@@ -1,4 +1,5 @@
 ﻿using Tyuiu.PopovaAA.Sprint5.Task7.V14.Lib;
+using System.IO;
 namespace Tyuiu.PopovaAA.Sprint5.Task7.V14
 {
     internal class Program
@@ -10,16 +11,17 @@ namespace Tyuiu.PopovaAA.Sprint5.Task7.V14
             Console.Title = "Спринт #5 | Выполнила Попова А.А. | РППб-24-1";
             Console.WriteLine("*****************************************************************************");
             Console.WriteLine("* Спринт #5                                                                 *");
-            Console.WriteLine("* Тема: Обработка текстовых файлов                                          *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                   *");
             Console.WriteLine("* Задание #7                                                                *");
             Console.WriteLine("* Вариант #14                                                               *");
             Console.WriteLine("* Выполнила: Попова Анастасия Алексеевна | РППб-24-1                        *");
             Console.WriteLine("*****************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                  *");
-            Console.WriteLine("* Дан файл С:DataSprint5 InPutDataFileTask5V27.txt (файл взять из архива    *");
+            Console.WriteLine("* Дан файл С:DataSprint5 InPutDataFileTask7V14.txt (файл взять из архива    *");
             Console.WriteLine("* согласно вашему варианту. Создать папку в ручную С:DataSprint5 и          *");
-            Console.WriteLine("* cкопировать в неё файл) в котором есть набор символьных данных. Найти     *");
-            Console.WriteLine("* количество удвоенных букв сс в заданной строке.                           *");
+            Console.WriteLine("* cкопировать в неё файл) в котором есть набор символьных данных. Заменить  *");
+            Console.WriteLine("* все строчные латинские буквы на заглавные.Полученный результат сохранить  *");
+            Console.WriteLine("* в файл OutPutDataFileTask7V14.txt.                                        *");
             Console.WriteLine("*                                                                           *");
             Console.WriteLine("*****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                          *");
@@ -34,7 +36,7 @@ namespace Tyuiu.PopovaAA.Sprint5.Task7.V14
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                *");
             Console.WriteLine("*****************************************************************************");
             Console.WriteLine("Находится в файле: ");
-            pathSaveFile = ds.LoadDataAndSave(pathSaveFile);
+            pathSaveFile = ds.LoadDataAndSave(path);
             Console.WriteLine(pathSaveFile);
             Console.ReadKey();
 

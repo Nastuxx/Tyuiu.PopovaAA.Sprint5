@@ -8,8 +8,8 @@ namespace Tyuiu.PopovaAA.Sprint5.Task7.V14.Lib
         {
             string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\OutPutDataFileTask7V14.txt";
 
-            FileInfo fileinfo = new FileInfo(path);
-            bool fileExists = fileinfo.Exists;
+            FileInfo fileInfo = new FileInfo(pathSaveFile);
+            bool fileExists = fileInfo.Exists;
 
             if (fileExists)
             {
@@ -17,16 +17,16 @@ namespace Tyuiu.PopovaAA.Sprint5.Task7.V14.Lib
             }
 
 
-            
+
             using (StreamReader reader = new StreamReader(path))
             {
-                string strLine;
-                while ((strLine = reader.ReadLine()) != null)
+                string line;
+                while ((line = reader.ReadLine()) != null)
                 {
-                    strLine = strLine.ToUpper();
+                    line = line.ToUpper();
 
-                    File.AppendAllText(pathSaveFile, strLine + Environment.NewLine);
-                    
+                    File.AppendAllText(pathSaveFile, line + Environment.NewLine);
+
                     
                 }
             }
