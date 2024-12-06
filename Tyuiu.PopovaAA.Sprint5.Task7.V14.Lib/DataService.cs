@@ -6,7 +6,7 @@ namespace Tyuiu.PopovaAA.Sprint5.Task7.V14.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            string pathSaveFile = $@"C:\Users\popov\source\repos\Tyuiu.PopovaAA.Sprint5\Tyuiu.PopovaAA.Sprint5.Task7.V14\bin\Debug\net8.0\OutPutDataFileTask7V14.txt";
+            string pathSaveFile = $@"C:\DataSprint5\OutPutDataFileTask7V14.txt";
 
             FileInfo fileInfo = new FileInfo(pathSaveFile);
             bool fileExists = fileInfo.Exists;
@@ -15,8 +15,6 @@ namespace Tyuiu.PopovaAA.Sprint5.Task7.V14.Lib
             {
                 File.Delete(pathSaveFile);
             }
-
-
 
             using (StreamReader reader = new StreamReader(path))
             {
