@@ -8,7 +8,7 @@ namespace Tyuiu.PopovaAA.Sprint5.Task7.V14.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = $@"C:\DataSprint5\OutPutDataFileTask7V14.txt";
+            string path = $@"C:\DataSprint5\InPutDataFileTask7V14.txt";
             FileInfo fileinfo = new FileInfo(path);
             bool fileExists = fileinfo.Exists;
             bool wait = true;
